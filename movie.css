@@ -1,0 +1,39 @@
+#h2,h1{
+    font-size: 60px;
+    font-family:monospace;
+    align-items: center;
+    text-align: center;
+    
+}
+#h2:hover{
+    box-shadow: 10px 10px 10px 0px;
+    
+}
+#h1{
+    font-size: 60px;
+    font-family:monospace;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.child{
+    font-size: 20px;
+    font-family: monospace;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    flex-direction: column;
+}
+.child:hover{
+    box-shadow: 5px 5px 5px 0px;
+}
+#parent{
+    border: 2px solid black;
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(pink,plum,plum,pink);
+     border: none;
+    margin-left: 300px;
+}
